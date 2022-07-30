@@ -10,10 +10,10 @@ const AboutPage = () => {
       return (
         <Fragment>
           <div className="box2 p-2">
-            <div class="position-relative overflow-hidden my-2 p-3 p-md-5 m-md-3 text-center bg-light">
-              <div class=" p-lg-5 mx-auto">
-                <h1 class="display-4 fw-normal">Information</h1>
-                <p class="lead fw-normal">
+            <div className  ="position-relative overflow-hidden my-2 p-3 p-md-5 m-md-3 text-center bg-light">
+              <div className=" p-lg-5 mx-auto">
+                <h1 className="display-4 fw-normal">Information</h1>
+                <p className="lead fw-normal">
                   Are you logged in?
                   {loggedIn ? (
                     <span style={{ color: "green" }}> True</span>
@@ -21,15 +21,15 @@ const AboutPage = () => {
                     <span style={{ color: "red" }}> True</span>
                   )}
                 </p>
-                <p class="lead fw-normal">
+                <p className="lead fw-normal">
                   Your Name is:
                   <span style={{ color: "purple" }}> {user.name}</span>
                 </p>
-                <p class="lead fw-normal">
+                <p className="lead fw-normal">
                   Your email address is:{" "}
                   <span style={{ color: "violet" }}> {user.email}</span>
                 </p>
-                <p class="lead fw-normal">
+                <p className="lead fw-normal">
                   Are you a Business?{" "}
                   {user.biz ? (
                     <span style={{ color: "green" }}> Yes</span>

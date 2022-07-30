@@ -29,15 +29,15 @@ const HomePage = () => {
         <div className="d-flex flex-column align-items-center">
           <div className="p-2">{isLoggedIn()}</div>
           <div className="box p-2">
-            <div class="position-relative overflow-hidden my-2 p-3 p-md-5 m-md-3 text-center bg-light">
-              <div class="col-md-5 p-lg-5 mx-auto">
-                <h1 class="display-4 fw-normal">Business Cards!</h1>
-                <p class="lead fw-normal">
+            <div className="position-relative overflow-hidden my-2 p-3 p-md-5 m-md-3 text-center bg-light hoverBox">
+              <div className="col-md-5 p-lg-5 mx-auto">
+                <h1 className="display-4 fw-normal">Business Cards!</h1>
+                <p className="lead fw-normal">
                   Make a real impression on people with your own unique business
                   card! sign up today a business to create as many as you'd
                   like.
                 </p>
-                <Link class="btn btn-outline-secondary" to="/businesssignup">
+                <Link classNames="btn btn-outline-secondary" to="/businesssignup">
                   Signup
                 </Link>
               </div>
