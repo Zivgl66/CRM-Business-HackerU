@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import "./homepage.page.css";
 
 const HomePage = () => {
@@ -23,10 +24,25 @@ const HomePage = () => {
   };
   return (
     <Fragment>
-      <div className="container  m-5">
+      <div className="container ">
         <h1 className="text-center p-3">Welcome Home {user.name}</h1>
         <div className="d-flex flex-column align-items-center">
-          <div className="box1 p-2">{isLoggedIn()}</div>
+          <div className="p-2">{isLoggedIn()}</div>
+          <div className="box p-2">
+            <div class="position-relative overflow-hidden my-2 p-3 p-md-5 m-md-3 text-center bg-light">
+              <div class="col-md-5 p-lg-5 mx-auto">
+                <h1 class="display-4 fw-normal">Business Cards!</h1>
+                <p class="lead fw-normal">
+                  Make a real impression on people with your own unique business
+                  card! sign up today a business to create as many as you'd
+                  like.
+                </p>
+                <Link class="btn btn-outline-secondary" to="/businesssignup">
+                  Signup
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Fragment>
