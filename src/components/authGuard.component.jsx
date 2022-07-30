@@ -7,7 +7,7 @@ const AuthGuardRoute = ({ component: Page, ...rest }) => {
     <Route
       {...rest}
       render={(props) =>
-        loggedIn ? <Page {...props} /> : <Redirect to="/login" />
+        loggedIn ? <Page {...props} /> : <Redirect to="/signin" />
       }
     ></Route>
   );
