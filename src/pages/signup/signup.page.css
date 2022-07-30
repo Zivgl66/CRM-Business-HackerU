@@ -1,0 +1,8 @@
+.inputCard {
+  margin: 20px 400px 0px 400px;
+  padding: 20px;
+  border-style: inset;
+  background-color: hsla(195, 27%, 94%, 0.231);
+  border-radius: 100px;
+  background-blend-mode: screen;
+}

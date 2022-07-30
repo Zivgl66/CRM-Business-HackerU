@@ -1,0 +1,36 @@
+/* .inputCard {
+  margin: 75px 300px 0px 300px;
+  padding: 20px;
+  border: 3px #21252989 solid;
+  border-radius: 100px;
+ background-blend-mode: screen;
+  animation: hue 10s 0s ease-in infinite;
+}
+
+@keyframes hue {
+  0% {
+    background: linear-gradient(rgb(122, 183, 122), transparent),
+      linear-gradient(90deg, skyblue, transparent),
+      linear-gradient(-90deg, coral, transparent);
+  }
+  25% {
+    background: linear-gradient(limegreen, transparent),
+      linear-gradient(70deg, skyblue, transparent),
+      linear-gradient(-70deg, coral, transparent);
+  }
+  50% {
+    background: linear-gradient(limegreen, transparent),
+      linear-gradient(50deg, skyblue, transparent),
+      linear-gradient(-50deg, coral, transparent);
+  }
+  75% {
+    background: linear-gradient(limegreen, transparent),
+      linear-gradient(70deg, skyblue, transparent),
+      linear-gradient(-70deg, coral, transparent);
+  }
+  100% {
+    background: linear-gradient(limegreen, transparent),
+      linear-gradient(90deg, skyblue, transparent),
+      linear-gradient(-90deg, coral, transparent);
+  }
+} */

@@ -1,0 +1,11 @@
+- Navbar  - v
+- about - 
+- signin -
+-sign up - 
+-sign out -
+-business -
+-card - 
+
+
+-Nodejs 
+- add a user only (no biz) register and collection
